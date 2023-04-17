@@ -1,6 +1,7 @@
 import createMemory from "./create-memory.js"
 import instructions from "./instruction.js"
 export default class Cpu {
+       
        constructor (memory) {
               this.memory = memory
               this.registerNames = [
